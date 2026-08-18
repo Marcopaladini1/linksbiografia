@@ -1,0 +1,66 @@
+{
+  "profile": {
+    "name": "Marco Paladini",
+    "brand": "ORBY LAB",
+    "role": "Designer Gráfico e UX/UI Design",
+    "headline": "Design com estratégia. Presença que gera valor.",
+    "description": "Designer Gráfico e UX/UI focado em transformar marcas, produtos e ideias em experiências visuais com clareza, direção e performance.",
+    "photo": "https://orbylab.vercel.app/images/profile.png"
+  },
+  "tags": [
+    "Sites",
+    "Identidade Visual",
+    "Criativos",
+    "CGI & VFX"
+  ],
+  "links": [
+    {
+      "label": "Conheça meu portfólio",
+      "description": "Projetos, processo, serviços e trabalhos selecionados.",
+      "url": "https://orbylab.vercel.app/",
+      "type": "portfolio"
+    }
+  ],
+  
+  "cta": {
+    "eyebrow": "TEM UM PROJETO EM MENTE?",
+    "title": "Vamos construir algo impossível de ignorar.",
+    "button": "Iniciar conversa",
+    "url": "https://wa.me/5511946391427"
+  },
+    "notes": {
+    "usage": "Este JSON organiza o conteúdo da página para facilitar futuras edições. A versão atual do HTML é estática e não depende de JavaScript para funcionar.",
+    "external_assets": "As imagens são carregadas diretamente do portfólio orbylab.vercel.app."
+  },
+
+    "designerBoost": [
+    {
+      "type": "course",
+      "status": "GRÁTIS",
+      "platform": "YOUTUBE",
+      "title": "DesignerBoost — Photoshop do básico ao avançado"
+    },
+    {
+      "type": "community",
+      "status": "LISTA DE ESPERA",
+      "platform": "COMUNIDADE",
+      "title": "Comunidade DesignerBoost — VIP"
+    }
+  ],
+  "theme": {
+  "brand": "ORBY LAB",
+  "mode": "light-dark",
+  "background": "#E9E9E5",
+  "surface": "#1A1A1A",
+  "textDark": "#1A1A1A",
+  "textLight": "#F3F3EF",
+  "accent": "#C8FF3D",
+  "accentSecondary": "#A8E92F",
+  "fontFamily": "Inter",
+  "symbol": "✦",
+  "heroBackground": "#1A1A1A",
+  "contentBackground": "#E9E9E5",
+  "heroLogo": "assets/logo.png",
+  "note": "Tema de referência da página: fundo cinza-claro, superfícies em preto 90% e ações em verde-limão. O HTML/CSS continua sendo responsável pela renderização."
+}
+}
