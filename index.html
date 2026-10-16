@@ -181,6 +181,35 @@
 
       <span>DESIGN • UX/UI • DIGITAL</span>
     </footer>
-  </main>
+    </main>
+
+  <script>
+    document.addEventListener("click", function (event) {
+      const link = event.target.closest("a[href]");
+
+      if (!link) return;
+
+      // Preserva cliques especiais do navegador
+      if (
+        event.button !== 0 ||
+        event.ctrlKey ||
+        event.metaKey ||
+        event.shiftKey ||
+        event.altKey
+      ) return;
+
+      // Aplica apenas a links HTTP e HTTPS
+      if (!["http:", "https:"].includes(link.protocol)) return;
+
+      event.preventDefault();
+
+      window.open(
+        link.href,
+        "_blank",
+        `popup=yes,width=${screen.availWidth},height=${screen.availHeight},left=0,top=0,noopener,noreferrer`
+      );
+    });
+  </script>
+
 </body>
 </html>
